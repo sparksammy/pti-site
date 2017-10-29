@@ -19,14 +19,14 @@ set /P INPUT=Selection:
 if %INPUT%==1 (
     set TTS_GAMESERVER=127.0.0.1
 ) else if %INPUT%==2 (
-    SET /p TTS_GAMESERVER="Enter Current IP: "
+    set TTS_GAMESERVER=47.223.71.9
 ) else if %INPUT%==4 (
     GOTO 4
 ) else if %INPUT%==5 (
     SET TTS_GAMESERVER=lw2.ez-webz.com:7198
 ) else if %INPUT%==3 (
     echo.
-    24.175.245.229
+    set /P TTS_GAMESERVER=Gameserver: 
 ) else (
 	goto selection
 )
