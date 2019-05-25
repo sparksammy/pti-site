@@ -19,7 +19,7 @@ set /P INPUT=Selection:
 if %INPUT%==1 (
     set TTS_GAMESERVER=127.0.0.1
 ) else if %INPUT%==2 (
-    set TTS_GAMESERVER=47.223.71.9
+    set TTS_GAMESERVER=chun.ga
 ) else if %INPUT%==4 (
     GOTO 4
 ) else if %INPUT%==5 (
